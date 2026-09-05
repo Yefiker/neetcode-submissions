@@ -7,7 +7,7 @@
 
 ## Intuition
 
-The diameter passing through any single node as a turning point is equal to `leftSubtreeHeight + rightSubtreeHeight`. By computing heights bottom-up using post-order DFS, we can check and update a global maximum diameter at every node while returning the current node's height up to its parent.
+The diameter passing through any single node as a turning point is equal to `leftSubtreeHeight + rightSubtreeHeight`. By computing heights bottom-up using post-order DFS, we can check and update a global maximum diameter at every node while returning the current node's height up to its parent. Hello I am Yefiker
 
 ## Common Pitfalls
 
