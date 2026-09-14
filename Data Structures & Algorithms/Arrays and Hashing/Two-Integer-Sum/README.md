@@ -1,6 +1,3 @@
-#### 3. `Two Sum/README.md`
-
-````markdown
 # Two Sum
 
 ## Complexity
@@ -37,4 +34,3 @@ function twoSum(nums, target) {
   }
 }
 ```
-````

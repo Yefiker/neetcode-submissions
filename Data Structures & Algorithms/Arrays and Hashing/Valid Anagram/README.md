@@ -1,6 +1,3 @@
-#### 2. `Valid Anagram/README.md`
-
-````markdown
 # Valid Anagram
 
 ## Complexity
@@ -42,4 +39,3 @@ function isAnagram(s, t) {
   return true;
 }
 ```
-````
