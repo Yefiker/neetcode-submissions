@@ -1,4 +1,4 @@
-# Two Sum
+# Two Sum - simple logic
 
 ## Complexity
 
