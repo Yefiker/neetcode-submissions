@@ -10,7 +10,7 @@
 I track the best day to buy (`left`) and sell (`right`) using a dynamic sliding window:
 
 1. Initialize `left = 0` (buy) and `right = 1` (sell).
-2. If `prices[left] < prices[right]`, I have a valid transaction! Calculate the profit `prices[right] - prices[left]` and update `maxProfit`.
+2. If `prices[left] < prices[right]`, I have a valid transaction! Calculate the profit `prices[right] - prices[left]` and update `maxProfit` by using `Math.max`.
 3. If `prices[left] >= prices[right]`, I found a price that is lower than or equal to our current buying baseline. Slide `left = right` to make this lower price our new buying point.
 4. Always advance `right++` to explore the next selling day.
 
