@@ -13,6 +13,7 @@ By comparing the midpoint element `nums[mid]` against `nums[right]`:
 
 - **`nums[mid] > nums[right]`:** The midpoint belongs to the left, larger subarray. The minimum element must be strictly inside the right range $\rightarrow$ `left = mid + 1`.
 - **`nums[mid] <= nums[right]`:** The midpoint belongs to the right, smaller subarray (or the array segment is fully sorted). The minimum could be `mid` itself or an element to its left $\rightarrow$ `right = mid`.
+- And then we will make to return either `nums[left]` or `nums[right]` when the loop finish executing.
 
 The loop condition `left < right` prevents infinite loops when `right = mid` is used.
 
